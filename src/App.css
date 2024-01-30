@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.bmicontainer {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.461), rgba(255, 255, 255, 0.288));
+  box-shadow: 0px 16px 30px -10px rgba(179, 179, 189, 0.5);
+  border: 2px solid #afbfd8;
+  padding: 20px;
+  height: 400px;
+  width: 450px;
+  border-radius: 15px;
+}
+
+.title {
+  margin-bottom: 18px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.reloadbtn,
+.submitbtn {
+  width: 188px;
+}
+
+.reloadbtn {
+  margin-left: 30px;
+}
+
+.calcuation {
+  margin-top: 30px;
+}
+
+.calcuation,
+.message {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
